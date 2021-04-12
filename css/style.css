@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+/* font-family: 'Ibarra Real Nova', serif;*/
+ body, html{
+     padding: 0;
+     margin: 0;
+ }
+
+body{
+    font-family: 'Ibarra Real Nova', serif;
+}
+.entete {
+background: #6593A6;
+
+}
+a, a:hover {
+    text-decoration: none;
+}
+/* header */
+.header {
+background-color: #90CBFB;
+height: 70px;
+line-height: 70px; 
+}
+.logo {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    float: left;
+}
+.menu{
+    float: right;
+}
+.menu a  {
+color: #ffffff;
+margin-right: 20px;
+}
+.menu a:hover{
+    color: #6593A6;
+}
+/* banière */
+.banner {
+    width: 100%;
+    max-width: 100%;
+}
+.ban {
+    width: 100%;
+    max-width: 100%;
+    position: relative;
+}
+.ban img {
+    width: 100%;
+    max-width: 100%;
+}
+.inner-banner {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
